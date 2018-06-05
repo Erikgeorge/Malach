@@ -1,0 +1,144 @@
+html, body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/*Navbar*/
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: navy;
+    z-index: 5;
+}
+
+#navbar > a >img  {
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#navbar > ul {
+    float: right;
+    padding: 0;
+}
+
+#navbar > ul > li {
+    list-style-type: none;
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-top: -16px;
+    transition: .25s;
+    color: white;
+}
+
+#navbar > ul > li > a {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    text-decoration-line: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    transition: 1s;
+}
+
+#navbar > ul > li > a:hover {
+    background-color: lightgray;
+    color: navy;
+    transiton: 0.25s;
+}
+
+/*End Navbar*/
+
+.container {
+    padding-top: 50px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*Home*/
+
+#main > h1 {
+    font-size: 100px;
+    margin: 5px;
+}
+
+.container > #krew {
+    width: 80%;
+    padding-top: 10px;
+}
+
+.container > #smoke {
+    width: 40%;
+    float: left;
+    padding-top: 55px;
+    transform: rotate(90deg);
+}
+
+.container > #train {
+    width: 40%;
+    float: right;
+    padding-top: 55px;
+    transform: rotate(90deg);
+}
+
+/*End Home*/
+
+/*About*/
+
+#about > h1 {
+    font-size:50px;
+    margin: 5px;
+}
+
+#aboutContainer {
+    border-style: dashed;
+    border-color:aliceblue;
+    width: 100%
+}
+
+#aboutContainer > ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about > #king {
+    height: 50%;
+    margin-top: 10px;
+}
+
+/*End About*/
+
+/*Us*/
+#usContainer {
+    border-style: dashed;
+    border-color:aliceblue;
+    width: 100%;
+}
+
+#us > #grad {
+    height: 25%;
+    float: left;
+}
+
+#us > #squad {
+    height: 40%;
+}
+
+#us > #snake {
+    height: 25%;
+    float: right;
+}
+
+/*End Us*/
